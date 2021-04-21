@@ -25,6 +25,9 @@ mph2 = kmph1 * 0.621371
 kmph2 = mph1 * 1.60934
 ms1 = mph1 / 2.237
 ms2 = kmph1 / 3.6
+mpd1 = mph1 * 24
+mpd2 = kmph1 * 24
+
 
 #Result-Km---------------------------------------------------------------------
 
@@ -34,6 +37,9 @@ col1.write(kmph2)
 col1.write("Meters Per Second:")
 col1.write(ms1)
 
+col1.write("Kilometers per Day:")
+col1.write(mpd1)
+
 #Result-Mph--------------------------------------------------------------------
 
 col2.write("Miles Per Hour:")
@@ -42,6 +48,8 @@ col2.write(mph2)
 col2.write("Meters Per Second:")
 col2.write(ms2)
 
+col2.write("Miles per Day:")
+col2.write(mpd2)
 #Input-Ms----------------------------------------------------------------------
 
 ms3 = st.number_input("Meters Per Second:")
