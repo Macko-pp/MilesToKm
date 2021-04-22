@@ -32,7 +32,7 @@ mpd = mph2 * 24
 #Result-Colomn-1---------------------------------------------------------------
 
 col1.write("Kilometers per Day:")
-col1.write(mpd1)
+col1.write(kpd)
 
 col1.write("Kilometers Per Hour:")
 col1.write(kmph2)
@@ -43,7 +43,7 @@ col1.write(ms1)
 #Result-Colomn-2---------------------------------------------------------------
 
 col2.write("Miles per Day:")
-col2.write(mpd2)
+col2.write(mpd)
 
 col2.write("Miles Per Hour:")
 col2.write(mph2)
