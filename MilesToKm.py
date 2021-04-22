@@ -25,11 +25,11 @@ mph2 = kmph1 * 0.621371
 kmph2 = mph1 * 1.60934
 ms1 = mph1 / 2.237
 ms2 = kmph1 / 3.6
-mpd1 = mph1 * 24
-mpd2 = kmph1 * 24
+kpd = kmph2 * 24
+mpd = mph2 * 24
 
 
-#Result-Km---------------------------------------------------------------------
+#Result-Colomn-1---------------------------------------------------------------
 
 col1.write("Kilometers per Day:")
 col1.write(mpd1)
@@ -40,7 +40,7 @@ col1.write(kmph2)
 col1.write("Meters Per Second:")
 col1.write(ms1)
 
-#Result-Mph--------------------------------------------------------------------
+#Result-Colomn-2---------------------------------------------------------------
 
 col2.write("Miles per Day:")
 col2.write(mpd2)
