@@ -4,7 +4,7 @@ import streamlit as st
 
 #Title-------------------------------------------------------------------------
 
-co1, co2, co3 = st.beta_columns(3)
+co1, co2, co3 = st.columns(3)
 
 co2.title("Speed Converter")
 co2.write(" ")
@@ -13,7 +13,7 @@ co2.write(" ")
 
 #Input-&-Colomns---------------------------------------------------------------
 
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 
 mph1 = col1.number_input("Miles Per Hour:")
 kmph1 = col2.number_input("Kilometers Per Hour:")
@@ -61,7 +61,7 @@ msMph = ms3 * 2.23694
 
 #Result-&-Colu-----------------------------------------------------------------
 
-colu1, colu2 = st.beta_columns(2)
+colu1, colu2 = st.columns(2)
 
 colu1.write("Miles Per Hour:")
 colu2.write("Kilometers Per Hour:")
